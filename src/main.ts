@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
-import store from './store'
+import WeatherWidget from './WeatherWidget.vue'
 
-createApp(App).use(store).mount('#app')
+
+createApp(WeatherWidget).mount('#app')
